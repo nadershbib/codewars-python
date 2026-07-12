@@ -1,0 +1,5 @@
+
+# https://www.codewars.com/kata/5287e858c6b5a9678200083c/train/python
+
+def narcissistic( value ):
+    return value == sum(int(d)**len(str(value))for d in str(value))
